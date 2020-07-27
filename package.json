@@ -1,0 +1,14 @@
+{
+  "name": "collected-notes-cms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "axios": "^0.19.2"
+  },
+  "scripts": {
+    "prod": "eleventy",
+    "dev": "eleventy --serve"
+  }
+}
